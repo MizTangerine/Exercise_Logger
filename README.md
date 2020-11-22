@@ -6,7 +6,7 @@
 
 Workout tracker utilizing a Mongo database with a Mongoose schema.
 
-Link to live site: [Exercise Logger](https://clarissareeve.github.io/Exercise_Logger/)
+Link to live site: [Exercise Logger](https://aqueous-crag-51309.herokuapp.com/)
 
 ![Landing Page](public/assets/Functionality.gif)
 
