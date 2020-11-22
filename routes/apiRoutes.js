@@ -41,7 +41,7 @@ router.put('/:id', async ({ params, body }, res) => {
 // ***GET route api/workouts/range
 router.get('/range', async (req, res) => {
     try {
-        const result = await db.Workout.find({}).limit(7);
+        const result = await db.Workout.find({}).sort({ day: -1 }).limit(7);
         res.json(result);
     } catch (error) {
         res.status(400).json(err);
